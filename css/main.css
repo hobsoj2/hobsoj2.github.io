@@ -80,6 +80,9 @@ p a:hover {
 	float: left;
 	margin-bottom: 100px;
 }
+.row-continue {
+	margin-bottom: 50px;
+}
 .row-center {
 	display: flex;
     justify-content: center;
@@ -967,6 +970,9 @@ mark {
 }
 .slider-title {
 	font-size: 47px;
+}
+.slider-title-name {
+	letter-spacing: 17px;
 }
 .slider-txt {
 	font: 16px 'Roboto Condensed', sans-serif;
