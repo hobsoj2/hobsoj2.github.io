@@ -389,6 +389,15 @@
 
 } @media only screen and (max-width: 784px) {
 
+	/* ========== Spacing elements ========== */
+	.spacer {
+		display: none;
+	}
+
+	.row-center {
+		flex-wrap: wrap;
+	}
+
 	/* ========== Grid / Fluid Grid ========== */
 	.container,
 	.container-fluid {
@@ -743,4 +752,21 @@
 		height: 326px;
 	}
 
+}
+
+/* ========== Marvel iFrame responsive styling ========== */
+
+.marvel-container {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+
+.marvel-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }

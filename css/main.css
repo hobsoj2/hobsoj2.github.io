@@ -80,14 +80,18 @@ p a:hover {
 	float: left;
 	margin-bottom: 100px;
 }
+.row-center {
+	display: flex;
+    justify-content: center;
+}
 .col {
 	margin: 0 15px;
 	float: left;
 }
-.col-center {
-	margin: 0 15px;
-    vertical-align: middle;
-}
+/*.col-center {
+	float: none;
+	margin: auto;
+}*/
 .col-bottom-space {
 	margin-bottom: 30px;
 }
@@ -2801,3 +2805,6 @@ mark {
 .txt-black      { color: #000; }
 .bg-white       { background: #fff; }
 .bg-black       { background: #000; }
+
+
+
