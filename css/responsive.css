@@ -422,6 +422,10 @@
 	.col {
 		margin-bottom: 40px;
 	}
+	.tagcloud,
+	.logos {
+		margin-bottom: 40px;
+	}
 
 	/* ========== Medium Screen - Portrait ========== */
 	.msp-col-2 { width: 46%; }

@@ -1728,8 +1728,11 @@ mark {
 }
 /* Widget - Tags */
 .tagcloud {
-	margin-bottom: -10px;
+	margin-bottom: -20px;
 	overflow: hidden;
+}
+.tagcloud-with-logos {
+	overflow: visible;
 }
 .tagcloud a {
 	float: left;
@@ -1753,6 +1756,15 @@ mark {
 }
 .widget .price-range-button {
 	margin-top: -10px;
+}
+/* Logos */
+.logos {
+	float: right;
+	margin-bottom: -20px;
+}
+.logos img {
+	height: 40px;
+	margin: 0 50px 12px 0;
 }
 /* Widget - Item */
 .widget-item {
