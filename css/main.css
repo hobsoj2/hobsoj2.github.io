@@ -1111,7 +1111,7 @@ mark {
 }
 .page-info-parallax-img {
 	margin-top: 75px;
-	opacity: .5;
+	/*opacity: .5;*/
 }
 .page-info-title {
 	margin-bottom: 5px;
@@ -1260,7 +1260,7 @@ mark {
 
 /* ========== Parallax Effect 1 ========== */
 .parallax-img-1 {
-	opacity: .2;
+	/*opacity: .2;*/
 }
 
 /* ========== Testimonial ========== */
