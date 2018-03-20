@@ -528,6 +528,14 @@ mark {
 	letter-spacing: 7px;
 }
 
+.bullets {
+	list-style-type: circle;
+	/*list-style-position: inside;*/
+	margin: 20px;
+}
+
+
+
 /* ========== Overwrite Plugins CSS ========== */
 /* Owl Carousel */
 .owl-carousel {
@@ -1764,6 +1772,15 @@ mark {
 }
 .logos img {
 	height: 40px;
+	margin: 0 50px 12px 0;
+}
+/* Logos */
+.logo-sq {
+	float: right;
+	margin-bottom: -20px;
+}
+.logo-sq img {
+	height: 80px;
 	margin: 0 50px 12px 0;
 }
 /* Widget - Item */
