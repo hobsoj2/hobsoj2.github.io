@@ -741,7 +741,7 @@ mark {
 	color: #999;
 }
 .main-nav ul ul {
-	width: 170px;
+	width: 200px;
 	position: absolute;
 	visibility: hidden;
 	opacity: 0;
